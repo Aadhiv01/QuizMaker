@@ -24,7 +24,6 @@ class ResultCRUD:
                 now = datetime.date.today()
                 insert_query = insert(db.Results).values(uid=uid, student_name=student_name, category=category, percentage_score=score, date=now)
                 conn.execute(insert_query)
-                conn.commit()
             return True
         except Exception as e:
             logging.exception('Exception occurred during database operation')

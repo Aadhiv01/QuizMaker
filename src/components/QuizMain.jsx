@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar';
 import QuizCard from './QuizCard';
-import './QuizMain.css'
+import './CSS/QuizMain.css'
 
 const QuizMain = () => {
   return (

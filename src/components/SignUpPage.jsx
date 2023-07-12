@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import Navbar from './Navbar';
 import { FaUser, FaLock } from 'react-icons/fa';
-import './SignupPage.css'
+import './CSS/SignupPage.css';
 
 function Login() {
   const [uid, setUId] = useState('');
@@ -60,7 +60,7 @@ function Login() {
   }
 
   return (
-    <body>
+    <>
       <Navbar/>
       <div className="signup-container">
       <form onSubmit={handleSubmit} className="signup-form">
@@ -109,7 +109,7 @@ function Login() {
         <p className="signup-link">Existing User? <Link to="/" className='link'>Login</Link></p>
       </form>
     </div>
-  </body>
+  </>
   );
 }
 

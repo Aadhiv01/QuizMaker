@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import { FaUser, FaLock } from 'react-icons/fa';
 import Alert, { Button, Modal } from 'react-bootstrap';
 import Auth from './Auth';
-import './Login.css'
+import './CSS/Login.css'
 
 function Login() {
   const [username, setUsername] = useState('');
@@ -41,12 +41,13 @@ function Login() {
   }
 
   return (
-    <body>
+    <>
       <Navbar/>
       <div className="login-container">
       <form onSubmit={handleSubmit} className="login-form">
         <h2>Login</h2>
         <img src='https://e7.pngegg.com/pngimages/178/595/png-clipart-user-profile-computer-icons-login-user-avatars-monochrome-black-thumbnail.png'></img>
+        <br></br><br></br>
         <div className="form-group">
           <label htmlFor="username">Username</label>
           <div className="icon-input">
@@ -85,7 +86,7 @@ function Login() {
         </div>
       )}
     </div>
-  </body>
+  </>
   );
 }
 

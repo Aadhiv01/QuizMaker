@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import Auth from "./Auth";
-import './Navbar.css'
+import './CSS/Navbar.css'
 import { useDispatch } from 'react-redux'
 
 export default function Navbar() {

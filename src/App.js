@@ -1,12 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './Login'
-import SignupPage from './SignUpPage';
-import QuizMain from './QuizMain';
-import Programming from './Categories/Programming';
-import CurrentResults from './CurrentResults';
-import ScoresHistory from './ScoresHistory';
+import Login from './components/Login'
+import SignupPage from './components/SignUpPage';
+import QuizMain from './components/QuizMain';
+import Programming from './components/Categories/Programming';
+import CurrentResults from './components/CurrentResults';
+import ScoresHistory from './components/ScoresHistory';
+import Particle from './components/Particle';
 import './App.css';
-import Particle from './Particle';
+
 
 function App() {
 

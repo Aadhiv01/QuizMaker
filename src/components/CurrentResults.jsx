@@ -4,7 +4,7 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import { Check, X } from 'react-bootstrap-icons';
 import 'react-circular-progressbar/dist/styles.css';
 
-import './CurrentResults.css';
+import './CSS/CurrentResults.css';
 
 import Navbar from "./Navbar";
 
@@ -36,7 +36,7 @@ function CurrentResults() {
       const getAnswerContainerStyle = (index) => {
         const backgroundColor = isAnswerCorrect(index) ? 'rgba(99, 179, 114, 0.6)' : 'rgba(162, 76, 76, 0.6)';
         const fontColor = isAnswerCorrect(index) ? 'rgba(35, 106, 47, 1)' : 'rgba(158, 23, 23, 1)';
-        const answerLength = location.state.user_answers[index].length;
+        const answerLength = location.state.user_answers ? location.state.user_answers[index].length : 0;
         const width = location.state.question_set[index][0].length * 7.2;
         const containerOpacity = 0.6;
 
@@ -64,12 +64,12 @@ function CurrentResults() {
             <Navbar/>
             <div className="result-container">
                 <h3>Final Results</h3>
-                {location.state.question_set && location.state.user_answers && location.state.correct && (
+                {location.state.question_set && location.state.user_answers && location.state.user_answers.length && location.state.correct && (
                     <>
                     <h2>You scored {calculateScore()}%</h2>
                     <br></br><br></br>
                     <ul class="list-group">
-                        {location.state.question_set && location.state.user_answers && location.state.question_set.map((question, index) => (
+                        {location.state.question_set && location.state.user_answers && location.state.correct && location.state.question_set.map((question, index) => (
                         <li class="list-group-item" key={index}>
                             <h5>Question {index + 1}.</h5>
                             {question[0]}
