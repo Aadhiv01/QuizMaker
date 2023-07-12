@@ -1,0 +1,21 @@
+﻿question,answer,category
+A mistake in typed code that violates the rules of the programming language,Syntax Error,Programming
+A mistake in an algorithm or program that causes it to behave unexpectedly or return the incorrect value.,Logic Error,Programming
+"A mistake in a program that happens only when the program is actually run, such as a program attempting to access memory that does not exist.",Run Time Error,Programming
+Error that results when the number of bits is not enough to represent the number (like a car's odometer rolling over).,Overflow Error,Programming
+A Boolean condition to determine which of two paths are taken in an algorithm or program.,Selection,Programming
+The repetition of steps in an algorithm or program for a certain amount of times or until a certain condition is met.,Iteration,Programming
+"A binary digit, either 0 or 1.",Bit,Programming
+A sequence of 8 bits.,Byte,Programming
+A collection of procedures that are useful in creating programs.,Library,Programming
+Error that results when the number of bits is not enough to represent the number with full precision (like using 3 digits to represent π as 3.14).,Roundoff,Programming
+"Values that change smoothly, rather than in discrete intervals, over time. For example, the pitch and volume of a live concert.",Analog Data,Programming
+Compressing data in a way that preserves all data away and allows full recovery of the original.,Lossless,Programming
+Compressing data in a way that discards some data and makes it impossible to recover the original.,Lossy,Programming
+"Data about data, like descriptive information about a file or a row in a database.",Metadata,Programming
+The sequential execution of steps in an algorithm or code in a program (like steps in a recipe).,Sequencing,Programming
+An algorithm that iterates through each item in a list until it finds the target value.,Linear Search,Programming
+An algorithm that searches a sorted list for a value by repeatedly splitting the list in half.,Binary Search,Programming
+"Application Programming Interface, a library of procedures and a description of how to call each procedure.",API,Programming
+"A physical device that can run a program, such as a computer, smart phone, or smart sensor.",Computing Device,Programming
+A group of interconnected computing devices capable of sending or receiving data.,Computer Network,Programming
