@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/QuizMaker/static/css/main.2b5e674a.css",
-    "main.js": "/QuizMaker/static/js/main.0ecc38de.js",
+    "main.js": "/QuizMaker/static/js/main.e93738c5.js",
     "index.html": "/QuizMaker/index.html",
     "main.2b5e674a.css.map": "/QuizMaker/static/css/main.2b5e674a.css.map",
-    "main.0ecc38de.js.map": "/QuizMaker/static/js/main.0ecc38de.js.map"
+    "main.e93738c5.js.map": "/QuizMaker/static/js/main.e93738c5.js.map"
   },
   "entrypoints": [
     "static/css/main.2b5e674a.css",
-    "static/js/main.0ecc38de.js"
+    "static/js/main.e93738c5.js"
   ]
 }
