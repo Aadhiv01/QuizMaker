@@ -12,7 +12,7 @@ import './index.css';
 ReactDOM.render(
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter>
+        <BrowserRouter basename='/QuizMaker'>
           <App />
         </BrowserRouter>
       </PersistGate>
